@@ -13,11 +13,14 @@ describe('kmeans', function () {
             [30, 30, 3],
             [10, 10, 1],
             [20, 1, 30],
-            [1, 25, 30]
+            [1, 25, 30],
+            [10, 15, 1],
+            [20, 5, 10]
         ]
 
         kmeans(vector, 3, function (err, res) {
-            assert.equals(err, null)
+            console.log("DONE")
+            //assert.equals(err, null)
         })
     
         //asert.equal(,)
