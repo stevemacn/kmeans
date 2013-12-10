@@ -1,0 +1,22 @@
+{
+    "name": "kmeans"
+    , "description": "Kmeans library for node.js"
+    , "version": "0.0.1"
+    , "author": "Stephen MacNeil"
+    , "keywords": [ "kmeans", "cluster" ]
+    , "dependencies": { 
+        "underscore": "latest" 
+    }
+    , "devDependencies": {
+        "mocha": "latest"
+    }
+    , "engines": { "node": "latest" }
+    , "main": "./lib/kmeans"
+    , "repository": {
+        "type": "git"
+        , "url": "http://github.com/stevemacn/kmeans.git"
+    }
+    , "scripts": {
+        "test": "mocha -t 30000 -R spec"
+    }
+}
