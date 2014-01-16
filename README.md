@@ -1,4 +1,4 @@
-An node.js javascript implementation of Kmeans
+A javascript implementation of Kmeans
 =====
 
 This is a javascript/node.js based implementation of the kmeans algorithm for clustering vectors. It was an opportunity for me to practice some skills. Hopefully it will be useful for some people trying to learn the theory behind kmeans!
