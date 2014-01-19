@@ -1,7 +1,6 @@
 var assert = require('assert')
-  , fs = require('fs')
-  , path = require('path')
-  , kmeans = require('../lib/cmeans.js')
+  , mocha = require('mocha')
+  , kmeans = require('../lib/kmeans.js')
 
 describe('kmeans', function () {
 
@@ -23,7 +22,7 @@ describe('kmeans', function () {
         ]
 
         kmeans(vector, 3, function (err, res) {
-            console.log("DONE")
+            console.log(res)
             //assert.equals(err, null)
         })
     

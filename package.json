@@ -1,22 +1,37 @@
 {
-    "name": "kmeans"
-    , "description": "Kmeans library for node.js"
-    , "version": "0.0.1"
-    , "author": "Stephen MacNeil"
-    , "keywords": [ "kmeans", "cluster" ]
-    , "dependencies": { 
-        "underscore": "latest" 
-    }
-    , "devDependencies": {
-        "mocha": "latest"
-    }
-    , "engines": { "node": "latest" }
-    , "main": "./lib/kmeans"
-    , "repository": {
-        "type": "git"
-        , "url": "http://github.com/stevemacn/kmeans.git"
-    }
-    , "scripts": {
-        "test": "mocha -t 30000 -R spec"
-    }
+  "name": "kmeansjs",
+  "description": "A k-means implementation for JavaScript",
+  "homepage": "http://github.com/stevemacn/kmeans",
+  "version": "0.0.2",
+  "author": {
+    "name": "Stephen MacNeil",
+    "email": "smacneil01@gmail.com"
+  },
+  "keywords": [
+    "kmeans",
+    "clustering",
+    "tutorial"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stevemacn/kmeans.git"
+  },
+  "bugs": {
+    "url": "http://github.com/stevemacn/kmeans/issues"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "docco": "latest"
+  },
+  "files": [
+    "./lib/kmeans.js"
+  ],
+  "main": "./lib/kmeans.js",
+  "scripts": {
+    "test": "mocha -t 30000 -R spec"
+  },
+  "readme": "A javascript implementation of Kmeans\n=====\n\nThis is a javascript/node.js based implementation of the kmeans algorithm for clustering vectors. It was an opportunity for me to practice some skills. Hopefully it will be useful for some people trying to learn the theory behind kmeans!\n\n * Creating a javascript library\n * Experimenting with documentation via docco\n * Play with github pages!\n\n\nTechnical tutorial\n---\n\nThe [code/tutorial][kt] for this library, created with [docco][doc],  explains the theory behind kmeans and shows how this library works!\n\n[kt]:http://stevemacn.github.io/docs/cmeans.html\n[doc]:https://github.com/jashkenas/docco\n\nSetup\n---\n    npm install\n\nUsage\n---\n    //Creating 3 clusters with vector dataset\n\n    var vector = [\n        [10, 2, 30],\n        [30, 20, 2],\n        [30, 30, 3],\n        [10, 10, 1],\n        [20, 1, 30],\n        [1, 25, 30]\n    ]\n    \n    kmeans(vector, 3, function(err, res) {\n        if (err) throw new Error(err)\n\n        //do something with the result\n    })\n\n\nTesting\n---\n    npm test\n    \nDisclaimer\n---\nThis library was created mostly for practice and in my haste I may have missed something. Please submit issues if ANYTHING is wrong or even if you have suggestions on how ANYTHING can be improved!\n",
+  "readmeFilename": "README.md",
+  "_id": "kmeans@0.0.1",
+  "_from": "kmeans@"
 }
