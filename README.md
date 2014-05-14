@@ -1,11 +1,7 @@
 A javascript implementation of Kmeans
 =====
 
-This is a javascript/node.js based implementation of the kmeans algorithm for clustering vectors. It was an opportunity for me to practice some skills. Hopefully it will be useful for some people trying to learn the theory behind kmeans!
-
- * Creating a javascript library
- * Experimenting with documentation via docco
- * Play with github pages!
+This is a javascript/node.js based implementation of the kmeans algorithm for clustering vectors. 
 
 
 Technical tutorial
@@ -44,6 +40,3 @@ Testing
 ---
     npm test
     
-Disclaimer
----
-This library was created mostly for practice and in my haste I may have missed something. Please submit issues if ANYTHING is wrong or even if you have suggestions on how ANYTHING can be improved!
