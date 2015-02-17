@@ -14,6 +14,12 @@ The [code/tutorial][kt] for this library, created with [docco][doc],  explains t
 
 Setup
 ---
+
+    npm install kmeansjs 
+
+or manually
+
+    git clone https://github.com/stevemacn/kmeans
     npm install
 
 Usage
