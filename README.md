@@ -9,7 +9,7 @@ Technical tutorial
 
 The [code/tutorial][kt] for this library, created with [docco][doc],  explains the theory behind kmeans and shows how this library works!
 
-[kt]:http://stevemacn.github.io/docs/cmeans.html
+[kt]:http://stevemacn.github.io/tutorials/docs/cmeans.html
 [doc]:https://github.com/jashkenas/docco
 
 Setup
