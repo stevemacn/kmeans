@@ -1,4 +1,4 @@
-A javascript implementation of Kmeans
+A javascript implementation of Kmeans [![Build Status](https://travis-ci.org/stevemacn/kmeans.svg?branch=master)](https://travis-ci.org/stevemacn/kmeans)
 =====
 
 This is a javascript/node.js based implementation of the kmeans algorithm for clustering vectors. 
